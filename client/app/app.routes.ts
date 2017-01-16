@@ -1,6 +1,6 @@
 import { RouterModule, Routes } from '@angular/router';
-import { CadastroComponent } from './cadastro/cadastro.component';
-import { ListagemComponent } from './listagem/listagem.component';
+import { CadastroComponent } from './modules/cadastro/cadastro.component';
+import { ListagemComponent } from './modules/home/listagem.component';
 
 const appRoutes: Routes = [
     { path: '', component: ListagemComponent },
